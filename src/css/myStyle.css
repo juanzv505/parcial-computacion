@@ -1,0 +1,124 @@
+body { 
+    margin: 0; 
+}
+
+.webgl{
+    width: 100%;
+    height: 100%;
+
+}
+
+.casa{
+position: absolute;
+top:850px;
+left: 1780px;
+scale: 200%;
+background-color: #647867;
+border-radius:5px;
+box-shadow:2px 2px 5px 0 rgba(0,0,0,0.4);
+}
+
+.back{
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+    padding: 22px 10px 24px 10px;
+}
+.u-section-1 .u-sheet-1 {
+    position: absolute;
+    min-height: 100vh;
+    background-color: #c7ffce;
+  }
+  
+.u-section-1 .u-group-1 {
+    width: 414px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0 auto 0 0;
+  }
+  
+  .u-section-1 .u-container-layout-1 {
+    padding: 0;
+  }
+  
+  .u-section-1 .u-image-1 {
+    border-radius:150px;
+    width: 283px;
+    height: 283px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: 100px 60px -30px;
+  }
+  
+  .u-section-1 .u-shape-1 {
+    width: 10px;
+    height: 100px;
+    margin: 41px auto 0 -374px;
+  }
+
+  .u-btn-1 {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 17px;
+    text-decoration:none;
+    color: white;
+    background-color: #647867;
+    position: absolute;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-image: none;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: -35px 70px;
+    padding: 22px 45px 24px 44px;
+    border:10px 10px 10px 10px;
+  }
+  
+ .u-btn-2 {
+    border-radius: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    color: white;
+    background-color: #647867;
+    position: absolute;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-image: none;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: 150px 70px;
+    padding: 22px 90px 24px 89px;
+  }
+  
+   .u-btn-3 {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 17px;
+    text-decoration:none;
+    color: white;
+    background-color: #647867;
+    position: absolute;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-image: none;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: 60px 70px;
+    padding: 22px 78px 23px;
+  }
+  
+ .u-btn-4 {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 17px;
+    text-decoration:none;
+    color: white;
+    background-color: #647867;
+    position: absolute;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-image: none;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: 245px  70px;
+    padding: 22px 10px 24px;
+  }
+  

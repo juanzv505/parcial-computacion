@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First THREE JS</title>
+    <link rel="icon" href="./src/img/icon.png" type="image/png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./src/css/myStyle.css">
+    <!-- Data GUI -->
+    <script src="./src/libs/DAT.GUI.min.js"></script>
+    <!-- With this line of code we can have the basic code of THREEJS-->
+    <script src="./src/libs/build/three.min.js"></script>
+    <!-- Controls -->
+    <script src="./src/vendors/three.js-master/build/three.min.js"></script>
+    <!-- load(MTL,OBJ) -->
+    <script src="./src/libs/load/OBJLoader.js"></script>
+    <script src="./src/libs/load/MTLLoader.js"></script>
+    <script src="./src/libs/controls/OrbitControls.js"></script>
+    <!-- With this import of js file, We can apply the elements of THREEJS-->
+    <script src="./src/js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body onload="start()">
+    
+    <canvas width="800" height="600" class="webgl"></canvas>
+    <div class="casa">
+        <a href="casa.html" class="back">Home</a>
+    
+    </div>
+    <section class="u-clearfix u-section-1" id="sec-ceee">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-container-style u-custom-color-1 u-group u-shape-rectangle u-group-1">
+            <div class="u-container-layout u-container-layout-1">
+              <img class="u-image u-image-circle u-image-contain u-preserve-proportions u-image-1" src="./src/img/6d31eb.png" alt="" data-image-width="500" data-image-height="500">
+              <div class="u-custom-color-3 u-opacity u-opacity-45 u-preserve-proportions u-shape u-shape-circle u-shape-1"></div>
+              <input type="file" id="fileElem" multiple  style="display:none" onchange="handleFiles(this.files)">
+              <a href="javascript:doClick()" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-17 u-btn-1">CARGAR OTRO</a>
+              <a href="javascript:rotar()" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-17 u-btn-2">ROTAR</a>
+              <a href="javascript:escalar()" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-17 u-btn-3">ESCALAR</a>
+              <a href="javascript:wireframe()" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-17 u-btn-4">CONTAR POLIGONOS</a>
+            </div>
+          </div>
+
+        </div>
+      <div id="lost" style="display: none;">
+          <div id="instructions">
+              <span onclick="go2Play()" style="font-size:36px">Click to play</span>
+          </div>
+      </div>
+  
+      </section>
+      <audio id="myAudio">
+        <source src="./songs/backgroundSound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+        <audio id="endGame">
+        <source src="./songs/gameOverCut.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <script>
+        var x = document.getElementById("myAudio"); 
+            var y = document.getElementById("endGame");
+        function playAudio(k) { 
+                k.volume = 0.5;
+          k.play(); 
+            } 
+            function pauseAudio(k) { 
+          k.pause(); 
+        } 
+    s
+        </script>
+
+</body>
+
+</html>
